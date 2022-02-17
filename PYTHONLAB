@@ -1,0 +1,46 @@
+1)/SUM OF FIRST AND LAST DIGIT OF THE GIVEN NUMBER 
+n = int(input("Enter any number : "))
+
+number = str(n)
+
+first = int(number[0])
+last = int(number[-1])
+sum = first + last
+print(f"sum of {first} and {last} is : ",sum)
+
+2) ADD TWO NUMBER 
+for t in range(int(input())):
+    A, B = input().split()
+    A, B = int(A), int(B)
+    print(A+B)
+
+3) FIND REMAINDER 
+N = int(raw_input())
+for tc in range(N):
+	(a, b) = map(int, raw_input().split(' '))
+	ans = a%b
+
+4) FIRST AND LAST 
+  N = int(raw_input())
+for _ in range(N):
+    num = raw_input()
+    result = int(num[0]) + int(num[-1])
+    print(result)
+5) LIST DATA TYPES 
+list1  = [1, "hi", "Python", 2]    
+
+print(type(list1))  
+  
+print (list1)  
+  
+# List slicing  
+print (list1[3:])  
+  
+# List slicing  
+print (list1[0:2])   
+  
+# List Concatenation using + operator  
+print (list1 + list1)  
+  
+# List repetation using * operator  
+print (list1 * 3)  
